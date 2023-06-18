@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+}
+
+/* Book Styles */
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.book-image img {
+    max-width: 300px;
+    height: auto;
+}
+
+.book-details {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.book-title {
+    color: #333;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.author {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.description {
+    color: #555;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
